@@ -1,0 +1,54 @@
+.header {
+    overflow: hidden;
+}
+
+.header .headline {
+    float: left;
+    width: 60%;
+    text-align: right;
+}
+
+.header ul {
+    float: right;
+    width: 30%;
+    text-align: right;
+    margin-top: 35px;
+}
+
+.header ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+.header li {
+    display: inline;
+}
+
+.section {
+    padding-top: 50px;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.upcoming-projects {
+    text-align: left;
+}
+
+.upcoming-projects h2 {
+    text-align: center
+}
+
+.upcoming-projects .project-list .project {
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    padding: 10px;
+}
+
+.upcoming-projects .project-list .project span {
+    display: block;
+    font-weight: 200;
+}
